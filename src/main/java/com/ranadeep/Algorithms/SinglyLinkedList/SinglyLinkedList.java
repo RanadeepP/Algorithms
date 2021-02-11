@@ -1,5 +1,7 @@
 package com.ranadeep.Algorithms.SinglyLinkedList;
 
+import java.util.List;
+
 public class SinglyLinkedList<E> {
 
 /*
@@ -15,6 +17,7 @@ The singly linked list contract should implement the following methods.
     private Node<E> head;
     private Node<E> tail;
     private int size;
+    private List<String> test;
 
     public int size(){
         return size;
